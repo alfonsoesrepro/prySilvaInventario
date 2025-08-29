@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prySilvaInventario", "prySilvaInventario\prySilvaInventario.csproj", "{1946BC3C-3D32-4F33-A4B1-409EAD417586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1946BC3C-3D32-4F33-A4B1-409EAD417586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1946BC3C-3D32-4F33-A4B1-409EAD417586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1946BC3C-3D32-4F33-A4B1-409EAD417586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1946BC3C-3D32-4F33-A4B1-409EAD417586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78B0B822-A37F-4154-9595-D56F343D0A5D}
+	EndGlobalSection
+EndGlobal
