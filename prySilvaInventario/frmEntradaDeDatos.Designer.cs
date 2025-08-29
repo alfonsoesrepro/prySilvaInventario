@@ -42,6 +42,7 @@
             txtCateg = new TextBox();
             cmdAceptar = new Button();
             cmdVolver = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // lblCod
@@ -166,11 +167,21 @@
             cmdVolver.Text = "Volver";
             cmdVolver.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            button1.Location = new Point(75, 19);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 14;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // frmEntradaDeDatos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(341, 488);
+            Controls.Add(button1);
             Controls.Add(cmdVolver);
             Controls.Add(cmdAceptar);
             Controls.Add(txtCateg);
@@ -208,5 +219,6 @@
         private TextBox txtCateg;
         private Button cmdAceptar;
         private Button cmdVolver;
+        private Button button1;
     }
 }
